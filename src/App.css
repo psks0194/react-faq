@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.faq-comp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-box{
+  background-color: gray;
+  margin: 10px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.arrow{
+  transform: rotate(90deg);
+}
+
+.faq-que{
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(225, 165, 46);
+
+  button{
+    border: none;
+    outline: none;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
+
+.faq-ans{
+  display: flex;
+  padding-left: 35px;
+  font-size: small;
+  color: beige;
+}
